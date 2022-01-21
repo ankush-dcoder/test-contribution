@@ -1,0 +1,59 @@
+
+profile pic
+@ankush38u
+Feed
+SlackSendMessage
+dist
+dcoder_block.yml
+dcoder_run.yml
+index.js
+package-lock.json
+package.json
+dcoder_block.yml
+1
+id: SEND_MESSAGE
+2
+fileName: dist/index.js
+3
+runFunction: main
+4
+auths:
+5
+- name: slack
+6
+env: null
+7
+inputs:
+8
+- name: channel
+9
+  type: Text
+10
+  default: general
+11
+  description: slack channel
+12
+  required: true
+13
+  title: What's the channel name?
+14
+- name: text
+15
+  type: Text
+16
+  description: message to be sent
+17
+  required: true
+18
+  title: The text message
+19
+output:
+20
+  name: success
+21
+  description: true if the message was sent successfully.
+22
+  type: Boolean
+23
+​
+Line: 1 Col: 0
